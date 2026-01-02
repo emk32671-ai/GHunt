@@ -10,7 +10,7 @@ from ghunt.helpers.gmail import is_email_registered
 
 async def main():
     if not sys.argv[1:]:
-        print("Please give an email address.")
+        print("ozmon221@yahoo.com")
         exit(os.EX_IOERR)
 
     as_client = httpx.AsyncClient() # Async Client
