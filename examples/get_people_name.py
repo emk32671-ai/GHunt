@@ -10,7 +10,7 @@ from ghunt.objects.base import GHuntCreds
 async def main():
     if not sys.argv[1:]:
         exit("Please give an email address.")
-    email = sys.argv[1]
+    email= sys.argv[1]ozmon221@gmail.com
 
     ghunt_creds = GHuntCreds()
     ghunt_creds.load_creds() # Check creds (but it doesn't crash if they are invalid)
